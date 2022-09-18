@@ -1,13 +1,24 @@
-form#ios input[type=password]{
+form#iosInput input[type=password]{
   height: 50px;
   width: 40px;
   text-align: center;
   font-size: 2em;
   border: 1px solid #000;
+  margin: 2px;
+}
+
+form#iosResult input[type=text]{
+  height: 50px;
+  width: 40px;
+  text-align: center;
+  font-size: 2em;
+  border: 1px solid #000;
+  margin: 2px;
 }
 
 .boxl {
 width: 300px;
+max-width: 85%;
 margin: 15px auto;
 border-radius: 15px;
 background: #8e8e93;
@@ -21,6 +32,7 @@ position: relative;
 
 .boxr {
 width: 300px;
+max-width: 85%;
 margin: 15px auto;
 border-radius: 15px;
 background: #5fc9f8;
