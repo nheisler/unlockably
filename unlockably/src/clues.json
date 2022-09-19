@@ -148,5 +148,35 @@
         "c3":"There are 2_ letters in the English alphabet.",
         "v4":"4",
         "c4":"How many U.S. state capitals are not served by the interstate highway system?"
+    },
+    {
+        "v1":"5",
+        "c1":"60/12 = ",
+        "v2":"4",
+        "c2":"How many nitrogen bases are found in nucleotides?",
+        "v3":"4",
+        "c3":"facebook was founded in 200_.",
+        "v4":"9",
+        "c4":"How many books are in 'The Chronicles of Narnia' series?" 
+    },
+    {
+        "v1":"8",
+        "c1":"'Saving Private Ryan' was released in 199_.",
+        "v2":"8",
+        "c2":"Which jersey number besides 24 did Kobe Bryant wear during his professional career?",
+        "v3":"4",
+        "c3":"How many countries make up the United Kingdom?",
+        "v4":"5",
+        "c4":"How many members did the group N.W.A. have?" 
+    },
+    {
+        "v1":"0",
+        "c1":"sin(pi) = ",
+        "v2":"2",
+        "c2":"How many electrons can fit on the first electron orbital?",
+        "v3":"3",
+        "c3":"The Wright brothers took the first flight in 190_.",
+        "v4":"4",
+        "c4":"How many novels did F. Scott Fitzgerald publish?" 
     }
 ]

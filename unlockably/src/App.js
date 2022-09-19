@@ -30,7 +30,7 @@ const remainingTriesStyle = {
   maxWidth: "90%",
   bgcolor: '#000',
   color: '#fff',
-  opacity: .6,
+  opacity: .75,
   p: 4,
 }
 
@@ -159,9 +159,9 @@ function App() {
       if (localStorage.getItem("tries_remaining") > 0)
       {
         clearAnswers();
+        openRemainingTries();
         var triesRemaining = +localStorage.getItem("tries_remaining") - 1;
         localStorage.setItem("tries_remaining", triesRemaining);
-        openRemainingTries();
       }
       else{
         displayAnswers();
@@ -204,11 +204,40 @@ function App() {
       losses = 0;
     }
     var w_percent = 100 * +wins / (+wins + +losses);
+    if (wins === 0)
+    {
+      w_percent = 0;
+    }
     return Math.floor(w_percent);
   }
 
   function getTriesRemaining(){
     return localStorage.getItem("tries_remaining");
+  }
+
+  function getNumCorrectAnswers(){
+    var count = 0;
+    if (input1ref.current === null || input2ref.current === null || input3ref.current === null || input4ref.current === null)
+    {
+      return 0;
+    }
+    if (input1ref.current.value === clues.v1)
+    {
+      count = count + 1;
+    }
+    if (input2ref.current.value === clues.v2)
+    {
+      count = count + 1;
+    }
+    if (input3ref.current.value === clues.v3)
+    {
+      count = count + 1;
+    }
+    if (input4ref.current.value === clues.v4)
+    {
+      count = count + 1;
+    }
+    return count;
   }
 
   return (
@@ -305,6 +334,7 @@ function App() {
         <Box sx={remainingTriesStyle}>
           <Typography id="modal-modal-title" variant="h6" component="h2" style={{'textAlign':'center'}}>
             <h2>Incorrect</h2>
+            <h3>{getNumCorrectAnswers()}/4 Correct</h3>
             <h3>{getTriesRemaining()} tries remaining</h3>
           </Typography>
         </Box>
