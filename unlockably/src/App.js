@@ -215,31 +215,6 @@ function App() {
     return localStorage.getItem("tries_remaining");
   }
 
-  function getNumCorrectAnswers(){
-    var count = 0;
-    if (input1ref.current === null || input2ref.current === null || input3ref.current === null || input4ref.current === null)
-    {
-      return 0;
-    }
-    if (input1ref.current.value === clues.v1)
-    {
-      count = count + 1;
-    }
-    if (input2ref.current.value === clues.v2)
-    {
-      count = count + 1;
-    }
-    if (input3ref.current.value === clues.v3)
-    {
-      count = count + 1;
-    }
-    if (input4ref.current.value === clues.v4)
-    {
-      count = count + 1;
-    }
-    return count;
-  }
-
   return (
     <div className="App">
       <header className="App-header">
@@ -334,7 +309,6 @@ function App() {
         <Box sx={remainingTriesStyle}>
           <Typography id="modal-modal-title" variant="h6" component="h2" style={{'textAlign':'center'}}>
             <h2>Incorrect</h2>
-            <h3>{getNumCorrectAnswers()}/4 Correct</h3>
             <h3>{getTriesRemaining()} tries remaining</h3>
           </Typography>
         </Box>
