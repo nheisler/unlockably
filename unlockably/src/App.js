@@ -53,6 +53,7 @@ const correctAnswerStyle = {
 }
 
 function App() {
+  const [rerender, setRerender] = React.useState(false);
   const [openS, setStatsOpen] = React.useState(false);
   const [openI, setInfoOpen] = React.useState(false);
   const [openRT, setRTOpen] = React.useState(false);
@@ -107,8 +108,9 @@ function App() {
       useranswer2ref.current.value=localStorage.getItem("user_answer_2");
       useranswer3ref.current.value=localStorage.getItem("user_answer_3");
       useranswer4ref.current.value=localStorage.getItem("user_answer_4");
+      setRerender(rerender);
     }
-  });
+  }, [rerender]);
 
   function moveOnMax (inputIndex) {
     if (inputIndex === 1)
@@ -190,6 +192,7 @@ function App() {
         }
         losses = +losses + 1
         localStorage.setItem("game_losses", (losses));
+        localStorage.setItem("tries_remaining", "0");
 
         openLoserModal();
       }
