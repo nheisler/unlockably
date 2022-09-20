@@ -332,7 +332,7 @@ function App() {
 
       <footer style={{'display':'flex', 'justifyContent':'space-between', 'maxWidth':'98%'}}>
         <div className="version">
-          <p style={{'marginLeft':'10px'}}>Version 2.0</p>
+          <p style={{'marginLeft':'10px'}}>Version 1.2</p>
         </div>
         <div className="buttons" style={{'bottom':'10px'}}>
           <AiOutlineInfoCircle size="2em" onClick={openInfo}/>
