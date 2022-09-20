@@ -178,5 +178,45 @@
         "c3":"The Wright brothers took the first flight in 190_.",
         "v4":"4",
         "c4":"How many novels did F. Scott Fitzgerald publish?" 
+    },
+    {
+        "v1":"6",
+        "c1":"How many zeros are in a million?",
+        "v2":"3",
+        "c2":"How many Star Wars films were made before 1985?",
+        "v3":"6",
+        "c3":"How many legs do insects have?",
+        "v4":"8",
+        "c4":"How many legs do arachnids have?" 
+    },
+    {
+        "v1":"4",
+        "c1":"How many compartments does a cow's stomach have?",
+        "v2":"6",
+        "c2":"There are 1_ ounces in a pint.",
+        "v3":"2",
+        "c3":"How many 'Anchorman' movies are there?",
+        "v4":"1",
+        "c4":"Baskin Robbins originally had 3_ flavors of ice cream." 
+    },
+    {
+        "v1":"3",
+        "c1":"How many NFL teams are in Florida",
+        "v2":"6",
+        "c2":"Harvard University was founded in 1_36.",
+        "v3":"4",
+        "c3":"How many faces are carved into Mount Rushmore",
+        "v4":"10",
+        "c4":"How many legs do decapodiformes have?" 
+    },
+    {
+        "v1":"8",
+        "c1":"How many bits are in a byte?",
+        "v2":"7",
+        "c2":"The first iPhone was released in 200_.",
+        "v3":"6",
+        "c3":"How many wheels does a Boeing 737 have?",
+        "v4":"5",
+        "c4":"How many fingers does a gorilla have on one hand?" 
     }
 ]
