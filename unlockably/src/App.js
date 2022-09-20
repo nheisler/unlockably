@@ -2,7 +2,7 @@ import './App.css';
 import React, { useRef, useEffect } from "react";
 import logo from './Unlockably_Logo.png';
 import cluesFile from './clues.json';
-import { AiOutlineInfoCircle, AiOutlineInstagram, AiOutlineClose } from 'react-icons/ai';
+import { AiOutlineInfoCircle, AiOutlineInstagram, AiOutlineFacebook, AiOutlineClose } from 'react-icons/ai';
 import { ImStatsBars } from 'react-icons/im';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
@@ -375,7 +375,8 @@ function App() {
             <p>You're locked out of your phone and can't remember the pin.</p>
             <p>Answer the questions to guess the 4 digit combination and win today's challenge</p>
           </Typography>
-          <AiOutlineInstagram size="1.5em" style={{"bottom":"5", "right":"5", "position":"fixed"}} onClick={() => window.open("https://www.instagram.com/unlockablygame/", "_blank")}/>
+          <AiOutlineInstagram size="2em" style={{"bottom":"5", "right":"35", "position":"fixed"}} onClick={() => window.open("https://www.instagram.com/unlockablygame/", "_blank")}/>
+          <AiOutlineFacebook size="2em" style={{"bottom":"5", "right":"5", "position":"fixed"}} onClick={() => window.open("https://www.facebook.com/unlockably", "_blank")}/>
         </Box>
       </Modal>
 
