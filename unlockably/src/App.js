@@ -111,6 +111,18 @@ function App() {
       setRerender(rerender);
     }
   }, [rerender]);
+  
+  useEffect(() => {
+    if (localStorage.getItem("tries_remaining") < 1)
+    {
+      useranswersdivref.current.style.display='block';
+      userinputdivref.current.style.display='none';
+      useranswer1ref.current.value=localStorage.getItem("user_answer_1");
+      useranswer2ref.current.value=localStorage.getItem("user_answer_2");
+      useranswer3ref.current.value=localStorage.getItem("user_answer_3");
+      useranswer4ref.current.value=localStorage.getItem("user_answer_4");
+    }
+  });
 
   function moveOnMax (inputIndex) {
     if (inputIndex === 1)
