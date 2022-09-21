@@ -1,25 +1,5 @@
 [
     {
-        "v1":"1",
-        "c1":"cos(0) =",
-        "v2":"1",
-        "c2":"Louis XIV was crowned the king of France in _654.",
-        "v3":"2",
-        "c3":"Taylor Swift was feeling 2_.",
-        "v4":"2",
-        "c4":"The median life expectancy of a cheetah is 1_ years."
-    },
-    {
-        "v1":"3",
-        "c1":"There are _5 bathrooms in the White House.",
-        "v2":"3",
-        "c2":"How many full terms did Franklin D. Roosevelt serve as president?",
-        "v3":"4",
-        "c3":"In 1_92 Columbus sailed the ocean blue.",
-        "v4":"4",
-        "c4":"There are _8 teaspoons are in a cup."
-    },
-    {
         "v1":"5",
         "c1":"3065 / 613 =",
         "v2":"5",
@@ -218,5 +198,105 @@
         "c3":"How many wheels does a Boeing 737 have?",
         "v4":"5",
         "c4":"How many fingers does a gorilla have on one hand?" 
+    },
+    {
+        "v1":"4",
+        "c1":"How many American Presidents have been assassinated whilst in office?",
+        "v2":"7",
+        "c2":"Amy Winehouse, Jimi Hendrix, Janis Joplin and Kurt Cobain all died at age 2_.",
+        "v3":"1",
+        "c3":"In rugby league, how many points is a drop goal worth?",
+        "v4":"5",
+        "c4":"A lustrum was a period of how many years in Ancient Rome?" 
+    },
+    {
+        "v1":"3",
+        "c1":"What is the atomic number of lithium?",
+        "v2":"9",
+        "c2":"The _ of diamonds is often known as the 'Curse of Scotland'.",
+        "v3":"2",
+        "c3":"How many elements in the periodic table begin with the letter 'Z'?",
+        "v4":"8",
+        "c4":"In 1948, George Orwell wrote the book 198_." 
+    },
+    {
+        "v1":"2",
+        "c1":"Jules Verne wrote the book '_0,000 Leagues Under the Sea'.",
+        "v2":"2",
+        "c2":"_00 laps are completed in the Indianapolis 500",
+        "v3":"6",
+        "c3":"How many hoops are used in croquet?",
+        "v4":"4",
+        "c4":"Ray Bradbury wrote the book 'Fahrenheit _51'." 
+    },
+    {
+        "v1":"3",
+        "c1":"How many lines are in a haiku?",
+        "v2":"3",
+        "c2":"A horse has to make _0 jumps to win the Grand National",
+        "v3":"2",
+        "c3":"What is the letter G worth in Scrabble?",
+        "v4":"6",
+        "c4":"How many different topics are there in a game of Trivial Pursuit?" 
+    },
+    {
+        "v1":"3",
+        "c1":"In English law what is the smallest number of people that can constitute a riot?",
+        "v2":"9",
+        "c2":"How many rows of stars are there on the American flag?",
+        "v3":"4",
+        "c3":"How many rings are there on a five-zone archery target?",
+        "v4":"3",
+        "c4":"How many Lonsdale belts did Henry Cooper win?" 
+    },
+    {
+        "v1":"9",
+        "c1":"The number _0 is represented by the Roman numerals, XC?",
+        "v2":"3",
+        "c2":"In tennis, how high is the net, in feet?",
+        "v3":"9",
+        "c3":"How many children did Queen Victoria have?",
+        "v4":"7",
+        "c4":"In the 3000 metre steeplechase how many times does an athlete jump the water?" 
+    },
+    {
+        "v1":"6",
+        "c1":"How many acts appeared on each edition of new faces?",
+        "v2":"7",
+        "c2":"How many points are awarded for a (converted) goal in rugby union?",
+        "v3":"6",
+        "c3":"How many points are awarded for a touchdown in American football?",
+        "v4":"8",
+        "c4":"How many humans went into Noah's Ark?" 
+    },
+    {
+        "v1":"7",
+        "c1":"Which King Henry was also known as Henry Tudor?",
+        "v2":"8",
+        "c2":"How many finger holes are there on a recorder?",
+        "v3":"6",
+        "c3":"How many stars are there on the flag of Australia?",
+        "v4":"6",
+        "c4":"How many Toll Puddle martyrs were there?" 
+    },
+    {
+        "v1":"1",
+        "c1":"cos(0) =",
+        "v2":"1",
+        "c2":"Louis XIV was crowned the king of France in _654.",
+        "v3":"2",
+        "c3":"Taylor Swift was feeling 2_.",
+        "v4":"2",
+        "c4":"The median life expectancy of a cheetah is 1_ years."
+    },
+    {
+        "v1":"3",
+        "c1":"There are _5 bathrooms in the White House.",
+        "v2":"3",
+        "c2":"How many full terms did Franklin D. Roosevelt serve as president?",
+        "v3":"4",
+        "c3":"In 1_92 Columbus sailed the ocean blue.",
+        "v4":"4",
+        "c4":"There are _8 teaspoons are in a cup."
     }
 ]
