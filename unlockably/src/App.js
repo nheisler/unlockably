@@ -331,7 +331,7 @@ function App() {
 
       </header>
 
-      <footer  className="footer" style={{'display':'flex', 'position':'relative', 'justifyContent':'space-between', 'maxWidth':'98%'}}>
+      <footer style={{'display':'flex', 'position':'relative', 'justifyContent':'space-between', 'maxWidth':'98%'}}>
         <div>
           <p style={{'position':'absolute', 'marginLeft':'10px'}}>Version 1.2</p>
         </div>

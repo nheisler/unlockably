@@ -74,9 +74,5 @@ top: 0px;
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  justify-content: flex-start;
-}
-
-.footer {
-  margin-top: auto;
+  justify-content: space-between;
 }
