@@ -294,6 +294,7 @@ function App() {
 
   return (
     <div className="App">
+      <div className="flex-wrapper">
       <header className="App-header">
         <div style={{'textAlign':'center'}}>
           <img src={logo} style={{'maxWidth': '300px', 'height': '100%', 'width': '100%', 'objectFit': 'contain'}} alt="Logo"/>
@@ -330,9 +331,9 @@ function App() {
 
       </header>
 
-      <footer style={{'display':'flex', 'justifyContent':'space-between', 'maxWidth':'98%'}}>
-        <div className="version">
-          <p style={{'marginLeft':'10px'}}>Version 1.2</p>
+      <footer  className="footer" style={{'display':'flex', 'position':'relative', 'justifyContent':'space-between', 'maxWidth':'98%'}}>
+        <div>
+          <p style={{'position':'absolute', 'marginLeft':'10px'}}>Version 1.2</p>
         </div>
         <div className="buttons" style={{'bottom':'10px'}}>
           <AiOutlineInfoCircle size="2em" onClick={openInfo}/>
@@ -443,7 +444,7 @@ function App() {
           </Typography>
         </Box>
       </Modal>
-
+      </div>
     </div>
   );
 }
