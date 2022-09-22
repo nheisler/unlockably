@@ -75,4 +75,6 @@ top: 0px;
   min-height: 100vh;
   flex-direction: column;
   justify-content: space-between;
+  top: 0;
+  bottom: 0;
 }

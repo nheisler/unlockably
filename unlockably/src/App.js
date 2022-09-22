@@ -293,8 +293,7 @@ function App() {
   }
 
   return (
-    <div className="App">
-      <div className="flex-wrapper">
+    <div className="App flex-wrapper">
       <header className="App-header">
         <div style={{'textAlign':'center'}}>
           <img src={logo} style={{'maxWidth': '300px', 'height': '100%', 'width': '100%', 'objectFit': 'contain'}} alt="Logo"/>
@@ -444,7 +443,6 @@ function App() {
           </Typography>
         </Box>
       </Modal>
-      </div>
     </div>
   );
 }
