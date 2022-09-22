@@ -72,7 +72,7 @@ top: 0px;
 
 .flex-wrapper {
   display: flex;
-  min-height: 100vh;
+  min-height: 97vh;
   flex-direction: column;
   justify-content: space-between;
   top: 0;
